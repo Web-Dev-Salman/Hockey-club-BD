@@ -1,87 +1,9 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey club BD</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body>
-    <header>
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
-                    </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li>
-                            <a>Home</a>
-                        </li>
-                        <li>
-                            <a>About</a>
-                        </li>
-                        <li>
-                            <a>Pages</a>
-                        </li>
-                        <li>
-                            <a>Blog</a>
-                        </li>
-                        <li>
-                            <a>Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <a class="btn btn-ghost text-xl">daisyUI</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li>
-                        <a>Home</a>
-                    </li>
-                    <li>
-                        <a>About</a>
-                    </li>
-                    <li>
-                        <a>Pages</a>
-                    </li>
-                    <li>
-                        <a>Blog</a>
-                    </li>
-                    <li>
-                        <a>Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <a class="btn">Button</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- slider section  -->
-
-    
-</body>
-
-=======
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
     <title>Hockey Hub BD</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -89,8 +11,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class=" w-[1200px] mx-auto">
-    <header class="container mx-auto ">
+<body class="container mx-auto px-4">
+    <header>
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -110,7 +32,7 @@
                         <li><a href="#">Contact</a> </li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-xl">Hockey Hub BD</a>
+                <a class="btn btn-ghost md:text-xl sm:text-lg">Hockey Hub BD</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -122,78 +44,80 @@
                 </ul>
             </div>
             <div class="navbar-end gap-5">
-                <button class="btn btn-ghost btn-circle">
+                <button class="btn btn-ghost btn-circle hidden md:block">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                 </button>
-                <a class="btn">Get Ticket</a>
+                <a class="btn bg-[#FF4240] text-white hover:bg-[#FF4240]">Get Ticket</a>
             </div>
         </div>
     </header>
 
-
-
-    <section class="container mx-auto ">
+    <!-- banner section start here  -->
+    <section>
         <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full md:m-0 m-14">
                 <div class="w-full rounded-2xl">
-                    <img src="./Images/1.png" alt="" class="w-full md:h-auto h-48">
+                    <img src="./Images/1.png" alt="" class="w-full md:h-auto h-48 object-fill">
                     <div
-                        class="absolute bottom-[-100px] md:bottom-8 md:right-8 w-[566px] bg-black rounded-2xl p-8 text-white">
-                        <h2 class="text-2xl mb-4">
-                            Meet all the heroes from the field
+                        class=" bg-black rounded-2xl p-8 text-white w-full mt-2 md:mt-0 md:w-[556px] md:absolute md:right-8 md:bottom-8">
+                        <h2 class="md:text-2xl mb-4 text-lg">
+                            Precision Meets Power
                         </h2>
-                        <p class="text-base">
-                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                            urna in sit nullam proin.
+                        <p class="text-sm md:text-base ">
+                            Experience the thrill of hockey where every shot is a masterpiece and every save is a
+                            game-changer. Join us in celebrating the spirit and unmatched skill of players on the icy
+                            battlefield.
                         </p>
                     </div>
                 </div>
                 <div
-                    class="absolute flex justify-start transform -translate-y-1/2 bottom-8 left-2/4  md:left-5 md:right-5 bottom-0 gap-4">
+                    class="absolute flex justify-start transform -translate-y-1/2 md:bottom-0 bottom-[50%] left-[35%]  md:left-5 md:right-5 gap-4">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full md:m-0 m-14">
                 <div class="w-full rounded-2xl">
-                    <img src="./Images/1.png" alt="" class="w-full md:h-auto h-48">
+                    <img src="./Images/1.png" alt="" class="w-full md:h-auto h-48 object-fill">
                     <div
-                        class="absolute bottom-[-100px] md:bottom-8 md:right-8 w-[566px] bg-black rounded-2xl p-8 text-white">
-                        <h2 class="text-2xl mb-4">
-                            Meet all the heroes from the field
+                        class=" bg-black rounded-2xl p-8 text-white w-full mt-2 md:mt-0 md:w-[556px] md:absolute md:right-8 md:bottom-8">
+                        <h2 class="md:text-2xl mb-4 text-lg">
+                            Proven Strategies for Excellence
                         </h2>
-                        <p class="text-base">
-                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                            urna in sit nullam proin.
+                        <p class="text-sm md:text-base ">
+                            Discover winning strategies, professional training tips, and exclusive interviews with
+                            hockey legends. Whether you play, coach, or are a passionate fan, elevate your understanding
+                            of the sport with us.
                         </p>
                     </div>
                 </div>
                 <div
-                    class="absolute flex justify-start transform -translate-y-1/2 bottom-8 left-2/4  md:left-5 md:right-5 bottom-0 gap-4">
+                    class="absolute flex justify-start transform -translate-y-1/2 md:bottom-0 bottom-[50%] left-[35%]  md:left-5 md:right-5 gap-4">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide3" class="carousel-item relative w-full md:m-0 m-14">
                 <div class="w-full rounded-2xl">
-                    <img src="./Images/1.png" alt="" class="w-full md:h-auto h-48">
+                    <img src="./Images/1.png" alt="" class="w-full md:h-auto h-48 object-fill">
                     <div
-                        class="absolute bottom-[-100px] md:bottom-8 md:right-8 w-[566px] bg-black rounded-2xl p-8 text-white">
-                        <h2 class="text-2xl mb-4">
-                            Meet all the heroes from the field
+                        class=" bg-black rounded-2xl p-8 text-white w-full mt-2 md:mt-0 md:w-[556px] md:absolute md:right-8 md:bottom-8">
+                        <h2 class="md:text-2xl mb-4 text-lg">
+                            Beyond the Goals
                         </h2>
-                        <p class="text-base">
-                            Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
-                            urna in sit nullam proin.
+                        <p class="text-sm md:text-base ">
+                            Explore the vibrant lifestyle around the rink – from locker room camaraderie to
+                            adrenaline-pumping moments on the ice. Dive into player stories and the culture that makes
+                            hockey a journey of passion and perseverance.
                         </p>
                     </div>
                 </div>
                 <div
-                    class="absolute flex justify-start transform -translate-y-1/2 bottom-8 left-2/4  md:left-5 md:right-5 bottom-0 gap-4">
+                    class="absolute flex justify-start transform -translate-y-1/2 md:bottom-0 bottom-[50%] left-[35%]  md:left-5 md:right-5 gap-4">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
@@ -201,835 +125,572 @@
         </div>
     </section>
 
-    <section class="container mx-auto text-center my-16 py-12 border-y-2 border-dotted">
-        <h1 class="text-4xl">Professional Hockeys Club</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
-            nullam proin. </p>
-    </section>
+    <!-- banner section end here  -->
 
-    <section class="container mx-auto mt-5 mb-24 border-b-2 border-dotted pb-28">
-        <div class="flex justify-around">
-            <div class="text-center">
-                <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
-                <h1 class="text-2xl my-3">Prayer Facility</h1>
-                <p class="text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quam.</p>
-            </div>
-            <div class="text-center">
-                <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
-                <h1 class="text-2xl my-3">Prayer Facility</h1>
-                <p class="text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quam.</p>
-            </div>
-            <div class="text-center">
-                <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
-                <h1 class="text-2xl my-3">Prayer Facility</h1>
-                <p class="text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quam.</p>
-            </div>
-            <div class="text-center">
-                <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
-                <h1 class="text-2xl my-3">Prayer Facility</h1>
-                <p class="text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quam.</p>
-            </div>
+
+    <!-- Professional Hockeys Club section start here -->
+
+    <section class="mt-24 ">
+        <div class="border-y-2 border-dotted py-8 text-center mb-10">
+            <h1 class="text-xl md:text-4xl mb-6">Professional Hockeys Club</h1>
+            <p class="md:w-[600px] mx-auto">
+                Welcome to our Professional Hockey Club, where excellence is not just a goal; it's a way of life. As a
+                distinguished hub for the finest in the sport, we pride ourselves on cultivating talent, fostering
+                teamwork, and achieving unparalleled success on the ice.
+            </p>
         </div>
-    </section>
 
-
-    <section class="container mx-auto text-center border-b-2 border-dotted pb-20">
-        <h1 class="text-4xl">Professional Hockeys Club</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
-            nullam proin. </p>
-    </section>
-    <section class="container mx-auto grid grid-cols-2 gap-9 mt-12">
-        <div
-            class="pt-24  px-10 pb-12 border rounded-2xl bg-[url('./images/2.png')] w-[575px] bg-no-repeat bg-center h-[338px]">
-            <h1>hello</h1>
-            <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ad?</p>
-            <button type="button" class="btn btn-error">Register Now!</button>
-        </div>
-        <div
-            class="pt-24 px-10 pb-12  border rounded-2xl bg-[url('./images/3.png')] w-[575px] bg-no-repeat bg-center h-[338px]">
-            <h1>hi</h1>
-            <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ad?</p>
-            <button type="button" class="btn btn-error">Register Now!</button>
-        </div>
-        <div
-            class="pt-56  px-10 pb-12 border col-span-2 rounded-2xl bg-[url('./images/4.png')] bg-cover bg-no-repeat bg-top">
-            <h1>welcome</h1>
-            <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ad?</p>
-            <button type="button" class="btn btn-error">Register Now!</button>
-        </div>
-    </section>
-
-
-    <section class="container mx-auto text-center my-16 py-12 border-y-2 border-dotted">
-        <h1 class="text-4xl">Professional Hockeys Club</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
-            nullam proin. </p>
-    </section>
-
-    <section class="flex gap-6 container mx-auto ">
-        <div class="flex gap-3 rounded-2xl border w-[573px] p-6">
+        <div class="md:flex justify-center align-middle text-center">
             <div>
-                <img src="./Images/7.png" alt="" srcset="">
-            </div>
-            <div>
-                <div class="flex gap-4">
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_192)">
-                                <path
-                                    d="M12 17.7498L5.82799 20.9948L7.00699 14.1218L2.00699 9.25477L8.90699 8.25477L11.993 2.00177L15.079 8.25477L21.979 9.25477L16.979 14.1218L18.158 20.9948L12 17.7498Z"
-                                    fill="#F99808" stroke="#F99808" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_192">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_207)">
-                                <path
-                                    d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path
-                                    d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_207">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>20</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_211)">
-                                <path
-                                    d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_211">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
+                <div class="radial-progress text-red-600" style="--value:86;" role="progressbar">
+                    <p class="text-black">86%</p>
                 </div>
-                <h3 class="text-xl font-bold">World Cup Flags Football</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo dolorum omnis, vitae quo
-                    dignissimos velit ut sit corrupti distinctio.</p>
+                <h1 class="text-3xl">
+                    Prayer Facility
+                </h1>
+                <p class="py-3">
+                    We have a quiet place for you to pray and find peace. It's important to us that you feel centered
+                    and balanced, even in the midst of the game.
+                </p>
+            </div>
+            <div>
+                <div class="radial-progress text-green-300" style="--value:85;" role="progressbar">
+                    <p class="text-black">85%</p>
+                </div>
+                <h1 class="text-3xl">
+                    Experienced Coach
+                </h1>
+                <p class="py-3">
+                    Our coach has a lot of experience. They will help you get better at the game with special training
+                    and smart advice. It's not just about playing – it's about growing and succeeding.
+                </p>
+            </div>
+            <div>
+                <div class="radial-progress text-yellow-300" style="--value:95;" role="progressbar">
+                    <p class="text-black">95%</p>
+                </div>
+                <h1 class="text-3xl">
+                    Senior Player
+                </h1>
+                <p class="py-3">
+                    Play with people who know a lot about the game. Learn from them, get better, and have fun playing
+                    alongside experienced players who know how to succeed.
+                </p>
+            </div>
+            <div>
+                <div class="radial-progress text-blue-400" style="--value:65;" role="progressbar">
+                    <p class="text-black">65%</p>
+                </div>
+                <h1 class="text-3xl">
+                    Training Ground
+                </h1>
+                <p class="py-3">
+                    Our practice area is really good. It has all the things you need to practice and get better. We want
+                    to give you the best tools to do well in the game.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Hockeys Club section end here -->
+
+
+    <!--Program Sections section start here -->
+    <section class="mt-24 ">
+        <div class="border-y-2 border-dotted py-8 text-center mb-10">
+            <h1 class="text-xl md:text-4xl mb-6">Professional Hockeys Club</h1>
+            <p class="md:w-[600px] mx-auto">
+                Welcome to our Professional Hockey Club, where excellence is not just a goal; it's a way of life. As a
+                distinguished hub for the finest in the sport, we pride ourselves on cultivating talent, fostering
+                teamwork, and achieving unparalleled success on the ice.
+            </p>
+        </div>
+
+        <div class="grid md:grid-rows-2 grid-rows-3 md:grid-cols-2 grid-cols-1 gap-6 ">
+            <div
+                class="border border-red-500 rounded-lg h-auto md:h-[340px] bg-[url('./images/2.png')] bg-cover	bg-no-repeat bg-center p-10 flex  items-end">
+                <div class=" text-white">
+                    <h1 class="text-xl md:text-3xl">Junior Program</h1>
+                    <p class="md:text-base text-sm py-4">
+                        Hey kids! Join our Junior Program to learn cool hockey moves, have fun on the ice, and become
+                        the next hockey superstar.
+                    </p>
+                    <a class="btn bg-[#FF4240] md:text-xl text-lg text-white hover:bg-[#FF4240] border-none">Register
+                        Now!</a>
+                </div>
+            </div>
+            <div
+                class="border border-red-500 rounded-lg h-auto md:h-[340px] bg-[url('./images/3.png')] bg-cover bg-no-repeat bg-center p-10 flex  items-end">
+                <div class=" text-white">
+                    <h1 class="text-xl md:text-3xl">Junior Program</h1>
+                    <p class="md:text-base text-sm py-4">
+                        Teens, level up your hockey skills with us! Enjoy advanced training, play exciting games, and
+                        join a group of awesome hockey buddies.
+                    </p>
+                    <a class="btn bg-[#FF4240] md:text-xl text-lg text-white hover:bg-[#FF4240] border-none">Register
+                        Now!</a>
+                </div>
+            </div>
+            <div
+                class="border border-red-500 rounded-lg h-auto md:h-[340px] md:col-span-2 bg-[url('./images/4.png')] bg-cover bg-no-repeat bg-center p-10 flex  items-end">
+                <div class="w-[535px] text-white">
+                    <h1 class="text-xl md:text-3xl">Junior Program</h1>
+                    <p class="md:text-base text-sm py-4">
+                        Dreaming of being a pro hockey player? Our Professional Program, guided by expert coaches, helps
+                        you train hard and play at the top. Let's make your hockey dreams come true!
+                    </p>
+                    <a class="btn bg-[#FF4240] md:text-xl text-lg text-white hover:bg-[#FF4240] border-none">Register
+                        Now!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Program Sections section end here -->
+
+
+    <!--Program Sections section start here -->
+
+    <section class="mt-24 ">
+        <div class="border-y-2 border-dotted py-8 text-center mb-10">
+            <h1 class="text-xl md:text-4xl mb-6">Professional Hockeys Club</h1>
+            <p class="md:w-[600px] mx-auto">
+                Welcome to our Professional Hockey Club, where excellence is not just a goal; it's a way of life. As a
+                distinguished hub for the finest in the sport, we pride ourselves on cultivating talent, fostering
+                teamwork, and achieving unparalleled success on the ice.
+            </p>
+        </div>
+
+        <div class="grid md:grid-rows-3 grid-rows-6 md:grid-cols-2 grid-cols-1 gap-6 ">
+            <div class="border border-gray-300 rounded-2xl flex md:flex-row flex-col p-6 gap-5 items-center">
+                <img class="w-44 h-44 md:block hidden " src="./Images/5.png" alt="">
+                <img class=" md:hidden block " src="./Images/5 molibe.png" alt="">
                 <div>
-                    <div>
-                        <h3>Price - $22.00</h3>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none">
-                                <g clip-path="url(#clip0_7_298)">
-                                    <path
-                                        d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B"
-                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_7_298">
-                                        <rect width="24" height="24" fill="white"
-                                            transform="translate(0 -0.000732422)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                    <div class="flex gap-2">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/start.png" alt="">
+                            <p>0.5</p>
                         </div>
-                        <div>
-                            Delivery Fee : Free
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/view.png" alt="">
+                            <p>200</p>
+                        </div>
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-4 object-contain " src="./Images/love.png" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold py-3">
+                        Hockey Jerseys
+                    </h1>
+                    <p class="pb-2">Deck out in our high-quality hockey jerseys! Show your team pride with durable,
+                        comfortable jerseys designed for the ultimate performance on the ice</p>
+                    <div class="flex justify-between">
+                        <p class="text-red-500 text-lg font-bold">Price - $22.99</p>
+                        <div class="flex">
+                            <img class="w-5 h-5" src="./Images/cart.png" alt="">
+                            <p>Delivery Fee: Free</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex gap-3 rounded-2xl border w-[573px] p-6">
-            <div>
-                <img src="./Images/7.png" alt="" srcset="">
-            </div>
-            <div>
-                <div class="flex gap-4">
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_192)">
-                                <path
-                                    d="M12 17.7498L5.82799 20.9948L7.00699 14.1218L2.00699 9.25477L8.90699 8.25477L11.993 2.00177L15.079 8.25477L21.979 9.25477L16.979 14.1218L18.158 20.9948L12 17.7498Z"
-                                    fill="#F99808" stroke="#F99808" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_192">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_207)">
-                                <path
-                                    d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path
-                                    d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_207">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>20</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_211)">
-                                <path
-                                    d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_211">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold">World Cup Flags Football</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo dolorum omnis, vitae quo
-                    dignissimos velit ut sit corrupti distinctio.</p>
+            <div class="border border-gray-300 rounded-2xl flex md:flex-row flex-col p-6 gap-5 items-center">
+                <img class="w-44 h-44 md:block hidden " src="./Images/6.png" alt="">
+                <img class=" md:hidden block " src="./Images/6 mobile.png" alt="">
                 <div>
-                    <div>
-                        <h3>Price - $22.00</h3>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none">
-                                <g clip-path="url(#clip0_7_298)">
-                                    <path
-                                        d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B"
-                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_7_298">
-                                        <rect width="24" height="24" fill="white"
-                                            transform="translate(0 -0.000732422)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                    <div class="flex gap-2">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/start.png" alt="">
+                            <p>0.5</p>
                         </div>
-                        <div>
-                            Delivery Fee : Free
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/view.png" alt="">
+                            <p>200</p>
+                        </div>
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-4 object-contain " src="./Images/love.png" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold py-3">
+                        Hockey Ball
+                    </h1>
+                    <p class="pb-2">Introducing our top-notch hockey ball – the key to precision play. Engineered for
+                        optimal bounce and durability, this ball ensures smooth passes and accurate shots. </p>
+                    <div class="flex justify-between">
+                        <p class="text-red-500 text-lg font-bold">Price - $22.99</p>
+                        <div class="flex">
+                            <img class="w-5 h-5" src="./Images/cart.png" alt="">
+                            <p>Delivery Fee: Free</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex gap-3 rounded-2xl border w-[573px] p-6">
-            <div>
-                <img src="./Images/7.png" alt="" srcset="">
-            </div>
-            <div>
-                <div class="flex gap-4">
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_192)">
-                                <path
-                                    d="M12 17.7498L5.82799 20.9948L7.00699 14.1218L2.00699 9.25477L8.90699 8.25477L11.993 2.00177L15.079 8.25477L21.979 9.25477L16.979 14.1218L18.158 20.9948L12 17.7498Z"
-                                    fill="#F99808" stroke="#F99808" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_192">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_207)">
-                                <path
-                                    d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path
-                                    d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_207">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>20</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_211)">
-                                <path
-                                    d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_211">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold">World Cup Flags Football</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo dolorum omnis, vitae quo
-                    dignissimos velit ut sit corrupti distinctio.</p>
+            <div class="border border-gray-300 rounded-2xl flex md:flex-row flex-col p-6 gap-5 items-center">
+                <img class="w-44 h-44 md:block hidden " src="./Images/7.png" alt="">
+                <img class=" md:hidden block " src="./Images/7 mobile.png" alt="">
                 <div>
-                    <div>
-                        <h3>Price - $22.00</h3>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none">
-                                <g clip-path="url(#clip0_7_298)">
-                                    <path
-                                        d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B"
-                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_7_298">
-                                        <rect width="24" height="24" fill="white"
-                                            transform="translate(0 -0.000732422)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                    <div class="flex gap-2">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/start.png" alt="">
+                            <p>0.5</p>
                         </div>
-                        <div>
-                            Delivery Fee : Free
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/view.png" alt="">
+                            <p>200</p>
+                        </div>
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-4 object-contain " src="./Images/love.png" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold py-3">
+                        Hockey Cap
+                    </h1>
+                    <p class="pb-2">Complete your look with our stylish hockey cap! Whether cheering from the stands or
+                        hitting the streets, this cap adds a touch of hockey flair to your outfit.</p>
+                    <div class="flex justify-between">
+                        <p class="text-red-500 text-lg font-bold">Price - $22.99</p>
+                        <div class="flex">
+                            <img class="w-5 h-5" src="./Images/cart.png" alt="">
+                            <p>Delivery Fee: Free</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex gap-3 rounded-2xl border w-[573px] p-6">
-            <div>
-                <img src="./Images/7.png" alt="" srcset="">
-            </div>
-            <div>
-                <div class="flex gap-4">
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_192)">
-                                <path
-                                    d="M12 17.7498L5.82799 20.9948L7.00699 14.1218L2.00699 9.25477L8.90699 8.25477L11.993 2.00177L15.079 8.25477L21.979 9.25477L16.979 14.1218L18.158 20.9948L12 17.7498Z"
-                                    fill="#F99808" stroke="#F99808" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_192">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_207)">
-                                <path
-                                    d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path
-                                    d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_207">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>20</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_211)">
-                                <path
-                                    d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_211">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold">World Cup Flags Football</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo dolorum omnis, vitae quo
-                    dignissimos velit ut sit corrupti distinctio.</p>
+            <div class="border border-gray-300 rounded-2xl flex md:flex-row flex-col p-6 gap-5 items-center">
+                <img class="w-44 h-44 md:block hidden " src="./Images/10.png" alt="">
+                <img class=" md:hidden block " src="./Images/10 mobile.png" alt="">
                 <div>
-                    <div>
-                        <h3>Price - $22.00</h3>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none">
-                                <g clip-path="url(#clip0_7_298)">
-                                    <path
-                                        d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B"
-                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_7_298">
-                                        <rect width="24" height="24" fill="white"
-                                            transform="translate(0 -0.000732422)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                    <div class="flex gap-2">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/start.png" alt="">
+                            <p>0.5</p>
                         </div>
-                        <div>
-                            Delivery Fee : Free
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/view.png" alt="">
+                            <p>200</p>
+                        </div>
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-4 object-contain " src="./Images/love.png" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold py-3">
+                        Hockey Ball
+                    </h1>
+                    <p class="pb-2">Introducing our top-notch hockey ball – the key to precision play. Engineered for
+                        optimal bounce and durability, this ball ensures smooth passes and accurate shots. </p>
+                    <div class="flex justify-between">
+                        <p class="text-red-500 text-lg font-bold">Price - $22.99</p>
+                        <div class="flex">
+                            <img class="w-5 h-5" src="./Images/cart.png" alt="">
+                            <p>Delivery Fee: Free</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex gap-3 rounded-2xl border w-[573px] p-6">
-            <div>
-                <img src="./Images/7.png" alt="" srcset="">
-            </div>
-            <div>
-                <div class="flex gap-4">
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_192)">
-                                <path
-                                    d="M12 17.7498L5.82799 20.9948L7.00699 14.1218L2.00699 9.25477L8.90699 8.25477L11.993 2.00177L15.079 8.25477L21.979 9.25477L16.979 14.1218L18.158 20.9948L12 17.7498Z"
-                                    fill="#F99808" stroke="#F99808" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_192">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_207)">
-                                <path
-                                    d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path
-                                    d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_207">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>20</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_211)">
-                                <path
-                                    d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_211">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold">World Cup Flags Football</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo dolorum omnis, vitae quo
-                    dignissimos velit ut sit corrupti distinctio.</p>
+            <div class="border border-gray-300 rounded-2xl flex md:flex-row flex-col p-6 gap-5 items-center">
+                <img class="w-44 h-44 md:block hidden " src="./Images/8.png" alt="">
+                <img class=" md:hidden block " src="./Images/8 mobile.png" alt="">
                 <div>
-                    <div>
-                        <h3>Price - $22.00</h3>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none">
-                                <g clip-path="url(#clip0_7_298)">
-                                    <path
-                                        d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B"
-                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_7_298">
-                                        <rect width="24" height="24" fill="white"
-                                            transform="translate(0 -0.000732422)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                    <div class="flex gap-2">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/start.png" alt="">
+                            <p>0.5</p>
                         </div>
-                        <div>
-                            Delivery Fee : Free
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/view.png" alt="">
+                            <p>200</p>
+                        </div>
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-4 object-contain " src="./Images/love.png" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold py-3">
+                        Retro-Inspired Hockey Jersey
+                    </h1>
+                    <p class="pb-2">Channel the spirit of hockey history with our retro-inspired hockey jersey. Designed
+                        for the modern player, this jersey blends nostalgia with contemporary comfort. Stand out on the
+                        ice with a timeless look that pays homage to the game's rich heritage.
+
+                    </p>
+                    <div class="flex justify-between">
+                        <p class="text-red-500 text-lg font-bold">Price - $22.99</p>
+                        <div class="flex">
+                            <img class="w-5 h-5" src="./Images/cart.png" alt="">
+                            <p>Delivery Fee: Free</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="flex gap-3 rounded-2xl border w-[573px] p-6">
-            <div>
-                <img src="./Images/7.png" alt="" srcset="">
-            </div>
-            <div>
-                <div class="flex gap-4">
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_192)">
-                                <path
-                                    d="M12 17.7498L5.82799 20.9948L7.00699 14.1218L2.00699 9.25477L8.90699 8.25477L11.993 2.00177L15.079 8.25477L21.979 9.25477L16.979 14.1218L18.158 20.9948L12 17.7498Z"
-                                    fill="#F99808" stroke="#F99808" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_192">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_207)">
-                                <path
-                                    d="M10 11.9998C10 12.5302 10.2107 13.0389 10.5858 13.414C10.9609 13.789 11.4696 13.9998 12 13.9998C12.5304 13.9998 13.0391 13.789 13.4142 13.414C13.7893 13.0389 14 12.5302 14 11.9998C14 11.4693 13.7893 10.9606 13.4142 10.5855C13.0391 10.2105 12.5304 9.99976 12 9.99976C11.4696 9.99976 10.9609 10.2105 10.5858 10.5855C10.2107 10.9606 10 11.4693 10 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path
-                                    d="M21 11.9998C18.6 15.9998 15.6 17.9998 12 17.9998C8.4 17.9998 5.4 15.9998 3 11.9998C5.4 7.99976 8.4 5.99976 12 5.99976C15.6 5.99976 18.6 7.99976 21 11.9998Z"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_207">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>20</h5>
-                    </div>
-                    <div class="flex gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <g clip-path="url(#clip0_6_211)">
-                                <path
-                                    d="M19.5 12.5717L12 19.9997L4.5 12.5717C4.0053 12.0904 3.61564 11.5118 3.35554 10.8724C3.09545 10.233 2.97056 9.5467 2.98873 8.85668C3.00691 8.16667 3.16776 7.48789 3.46115 6.86309C3.75455 6.23829 4.17413 5.681 4.69348 5.22633C5.21283 4.77165 5.8207 4.42944 6.47881 4.22123C7.13691 4.01302 7.831 3.94333 8.51736 4.01655C9.20373 4.08977 9.8675 4.30431 10.4669 4.64666C11.0662 4.98901 11.5882 5.45175 12 6.00575C12.4135 5.45577 12.9361 4.99707 13.5351 4.65835C14.1341 4.31964 14.7965 4.1082 15.4809 4.03727C16.1654 3.96634 16.8571 4.03745 17.5128 4.24614C18.1685 4.45484 18.774 4.79662 19.2915 5.25011C19.8091 5.7036 20.2274 6.25903 20.5204 6.88164C20.8134 7.50425 20.9747 8.18063 20.9943 8.86846C21.0139 9.55628 20.8913 10.2407 20.6341 10.879C20.377 11.5173 19.9909 12.0956 19.5 12.5777"
-                                    stroke="#131318" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_211">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 -0.000244141)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <h5>5.0</h5>
-                    </div>
-                </div>
-                <h3 class="text-xl font-bold">World Cup Flags Football</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo dolorum omnis, vitae quo
-                    dignissimos velit ut sit corrupti distinctio.</p>
+            <div class="border border-gray-300 rounded-2xl flex md:flex-row flex-col p-6 gap-5 items-center">
+                <img class="w-44 h-44 md:block hidden " src="./Images/9.png" alt="">
+                <img class=" md:hidden block " src="./Images/9 mobile.png" alt="">
                 <div>
-                    <div>
-                        <h3>Price - $22.00</h3>
-                    </div>
-                    <div class="flex">
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none">
-                                <g clip-path="url(#clip0_7_298)">
-                                    <path
-                                        d="M4 18.9993C4 19.5297 4.21071 20.0384 4.58579 20.4135C4.96086 20.7886 5.46957 20.9993 6 20.9993C6.53043 20.9993 7.03914 20.7886 7.41421 20.4135C7.78929 20.0384 8 19.5297 8 18.9993C8 18.4688 7.78929 17.9601 7.41421 17.5851C7.03914 17.21 6.53043 16.9993 6 16.9993C5.46957 16.9993 4.96086 17.21 4.58579 17.5851C4.21071 17.9601 4 18.4688 4 18.9993Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M12 16.9993H6V2.99927H4" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M6 4.99927L20 5.99927L19.284 11.0103M14 12.9993H6" stroke="#89898B"
-                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M21.121 20.1203C21.5406 19.7007 21.8265 19.1662 21.9423 18.5842C22.0581 18.0023 21.9988 17.399 21.7717 16.8508C21.5447 16.3026 21.1602 15.834 20.6668 15.5043C20.1734 15.1746 19.5934 14.9986 19 14.9986C18.4066 14.9986 17.8266 15.1746 17.3332 15.5043C16.8398 15.834 16.4553 16.3026 16.2283 16.8508C16.0012 17.399 15.9419 18.0023 16.0577 18.5842C16.1735 19.1662 16.4594 19.7007 16.879 20.1203C17.297 20.5393 18.004 21.1653 19 21.9993C20.051 21.1093 20.759 20.4833 21.121 20.1203Z"
-                                        stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M19 17.9993V18.0093" stroke="#89898B" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_7_298">
-                                        <rect width="24" height="24" fill="white"
-                                            transform="translate(0 -0.000732422)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                    <div class="flex gap-2">
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/start.png" alt="">
+                            <p>0.5</p>
                         </div>
-                        <div>
-                            Delivery Fee : Free
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-5" src="./Images/view.png" alt="">
+                            <p>200</p>
+                        </div>
+                        <div class="flex gap-1 items-center">
+                            <img class="w-5 h-4 object-contain " src="./Images/love.png" alt="">
+                            <p>200</p>
+                        </div>
+                    </div>
+                    <h1 class="text-2xl font-bold py-3">
+                        Hockey Helmet
+                    </h1>
+                    <p class="pb-2">Gear up with our hockey helmets that prioritize safety without compromising style.
+                        Designed for comfort and protection, these helmets meet the highest standards, keeping you safe
+                        on the ice. Play with confidence and style!
+                    </p>
+                    <div class="flex justify-between">
+                        <p class="text-red-500 text-lg font-bold">Price - $22.99</p>
+                        <div class="flex">
+                            <img class="w-5 h-5" src="./Images/cart.png" alt="">
+                            <p>Delivery Fee: Free</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
+    <!--Program Sections section end here -->
 
 
-    <section class="container mx-auto text-center my-16 py-12 border-y-2 border-dotted">
-        <h1 class="text-4xl">Clients Question</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
-            nullam proin. </p>
-    </section>
+    <!--Clients Question Sections section start here -->
+    <section class="mt-24 ">
+        <div class="border-y-2 border-dotted py-8 text-center mb-10">
+            <h1 class="text-xl md:text-4xl mb-6">Frequently Asked Questions</h1>
+            <p class="md:w-[600px] mx-auto">
+                Explore our frequently asked questions to learn more about our website and how you can make the most of
+                your hockey experience with us.< </p>
+        </div>
 
-    <section class="border-b-2 border-dotted">
-        <div class="container mx-auto flex">
-            <div><img src="./Images/11.png" alt="" srcset=""></div>
+        <div class="grid md:grid-cols-2 grid-cols-1 border rounded-3xl p-8 gap-8">
             <div>
-                <div class="collapse collapse-plus bg-base-200">
+                <img class="w-full" src="./Images/11.png" alt="faq img">
+            </div>
+            <div>
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
                     <input type="radio" name="my-accordion-3" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                    <div class="collapse-title text-xl font-medium ">
+                        1. What is Hockey Hub BD?
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p> is a comprehensive online platform dedicated to providing the latest and most exciting
+                            updates from the world of hockey. Whether you're a fan, player, or enthusiast, we aim to be
+                            your go-to source for everything hockey-related.</p>
                     </div>
                 </div>
-                <div class="collapse collapse-plus bg-base-200">
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
                     <input type="radio" name="my-accordion-3" />
                     <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                        2. How can I stay updated with the latest content?
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p>Stay updated by visiting our homepage regularly for the latest articles and updates. You can
+                            also subscribe to our newsletter to receive exclusive content, behind-the-scenes insights,
+                            and timely notifications directly in your inbox.</p>
                     </div>
                 </div>
-                <div class="collapse collapse-plus bg-base-200">
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
                     <input type="radio" name="my-accordion-3" />
                     <div class="collapse-title text-xl font-medium">
-                        Click to open this one and close others
+                        3. Do you cover local hockey leagues?
                     </div>
                     <div class="collapse-content">
-                        <p>hello</p>
+                        <p>Yes, we do! Explore our "Local Leagues" section to find stories, highlights, and achievements
+                            from various local hockey communities.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        4. How can I connect with other hockey fans?
+                    </div>
+                    <div class="collapse-content">
+                        <p>Join our Fan Zone! Engage in discussions, share your thoughts, and connect with fellow hockey
+                            enthusiasts. Follow us on facebook, instagram, and youtube for real-time updates,
+                            behind-the-scenes
+                            content, and interactions with other fans. </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        5. Are there resources to improve my hockey skills?
+                    </div>
+                    <div class="collapse-content">
+                        <p>Certainly! Check out our "Training and Gear" section for expert tips, tutorials, and reviews
+                            of hockey equipment. Whether you're a beginner or an experienced player, we have valuable
+                            resources for everyone.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        6. How can I share feedback about the website?
+
+                    </div>
+                    <div class="collapse-content">
+                        <p>We appreciate your feedback! Whether you have suggestions for improvement or positive
+                            comments, you can share your thoughts through our "Contact Us" page. Your input helps us
+                            enhance the overall experience for our community of hockey enthusiasts.
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        7. Can I find information about upcoming hockey events?
+                    </div>
+                    <div class="collapse-content">
+                        <p>Yes, our website features a dedicated section for upcoming hockey events, including games,
+                            tournaments, and special events. Stay tuned to stay informed about the exciting happenings
+                            in the world of hockey.
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus mb-1 border-b rounded-none	">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        8. Can I find historical data and statistics on your website?
+                    </div>
+                    <div class="collapse-content">
+                        <p>Yes, our website includes a comprehensive database of historical data and statistics. Dive
+                            into the archives to explore the rich history of hockey, including player achievements,
+                            memorable moments, and past seasons.
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus rounded-none	">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                        9. How can I stay updated on fantasy hockey leagues through your website?
+                    </div>
+                    <div class="collapse-content">
+                        <p>Stay on top of your fantasy hockey game by checking out our dedicated section for fantasy
+                            league insights, player recommendations, and strategy tips. We've got the resources to help
+                            you build a winning fantasy team.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!--Clients Question Sections section end here -->
 
-    <section class="container mx-auto text-center my-16 py-12 border-y-2 border-dotted">
-        <h1 class="text-4xl">Get In Touch</h1>
-        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
-            nullam proin.</p>
-    </section>
-    <section class=" container flex mx-auto">
-        <dev>
-            <dev>
-                <img src="./Images/Group 1171275317.png" alt="phone" srcset="">
-                <p>Phone Number : </p>
-                <h5>(+62) 123-321-543</h5>
-            </dev>
-            <dev>
-                <img src="./Images/Group 1171275317.png" alt="phone" srcset="">
-                <p>Phone Number : </p>
-                <h5>(+62) 123-321-543</h5>
-            </dev>
-            <dev>
-                <img src="./Images/Group 1171275317.png" alt="phone" srcset="">
-                <p>Phone Number : </p>
-                <h5>(+62) 123-321-543</h5>
-            </dev>
-        </dev>
-        <dev>
-            <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
-                <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-                    <div>
-                        <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First
-                            name</label>
-                        <div class="mt-2.5">
-                            <input type="text" name="first-name" id="first-name" autocomplete="given-name"
-                                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-                        </div>
-                    </div>
-                    <div>
-                        <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Last
-                            name</label>
-                        <div class="mt-2.5">
-                            <input type="text" name="last-name" id="last-name" autocomplete="family-name"
-                                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-                        </div>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Company</label>
-                        <div class="mt-2.5">
-                            <input type="text" name="company" id="company" autocomplete="organization"
-                                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-                        </div>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
-                        <div class="mt-2.5">
-                            <input type="email" name="email" id="email" autocomplete="email"
-                                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-                        </div>
-                    </div>
-                    <div class="sm:col-span-2">
-                        <label for="phone-number" class="block text-sm font-semibold leading-6 text-gray-900">Phone
-                            number</label>
-                        <div class="relative mt-2.5">
-                            <div class="absolute inset-y-0 left-0 flex items-center">
-                                <label for="country" class="sr-only">Country</label>
-                                <select id="country" name="country"
-                                    class="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
-                                    <option>US</option>
-                                    <option>CA</option>
-                                    <option>EU</option>
-                                </select>
-                                <svg class="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
-                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                                        clip-rule="evenodd" />
-                                </svg>
+
+    <!--Contact Sections section start here -->
+
+    <section>
+        <div class="border-y-2 border-dotted py-8 text-center mb-10">
+            <h1 class="text-xl md:text-4xl mb-6">Get In Touch</h1>
+            <p class="md:w-[600px] mx-auto">
+                Hockey club BD is is your one-stop destination for all things hockey. Join us on this exciting journey
+                through the world of slap shots, breakaways, and unforgettable moments on the ice!s
+            </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-8">
+            <div class="border rounded-xl p-12">
+                <div class="bg-green-100 p-8 rounded-2xl">
+                    <img src="./Images/Group 1171275317.png" alt="">
+                    <p>Phone Number:</p>
+                    <h6>+8805146447487</h6>
+                </div>
+                <div class="bg-yellow-100 p-8 my-5 rounded-2xl">
+                    <img src="./Images/Group 1171275318.png" alt="">
+                    <p>Phone Number:</p>
+                    <h6>+8805146447487</h6>
+                </div>
+                <div class="bg-cyan-200 p-8 rounded-2xl">
+                    <img src="./Images/Group 1171275321.png" alt="">
+                    <p>Phone Number:</p>
+                    <h6>+8805146447487</h6>
+                </div>
+            </div>
+            <div>
+                <form>
+                    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                        <div class="sm:col-span-3">
+                            <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Your
+                                Name</label>
+                            <div class="mt-2">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                    placeholder="Enter your full name"
+                                    class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6">
                             </div>
-                            <input type="tel" name="phone-number" id="phone-number" autocomplete="tel"
-                                class="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                        </div>
+
+                        <div class="sm:col-span-3">
+                            <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Your
+                                Email</label>
+                            <div class="mt-2">
+                                <input id="email" name="email" type="email" autocomplete="email"
+                                    placeholder="Enter your email"
+                                    class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+
+                        <div class="sm:col-span-3">
+                            <label for="Subject"
+                                class="block text-sm font-medium leading-6 text-gray-900">Subject</label>
+                            <div class="mt-2">
+                                <input type="text" name="subject" id="subject" autocomplete="Enter your subject"
+                                    placeholder="Enter your subject"
+                                    class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+
+                        <div class="sm:col-span-3">
+                            <label for="phone-number" class="block text-sm font-medium leading-6 text-gray-900">Phone
+                                Number</label>
+                            <div class="mt-2">
+                                <input type="number" name="phone-number" id="phone-number" autocomplete="phone-number"
+                                    placeholder="Enter your phone number"
+                                    class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6">
+                            </div>
+                        </div>
+                        <div class="col-span-full">
+                            <label for="message"
+                                class="block text-sm font-medium leading-6 text-gray-900">Message</label>
+                            <div class="mt-2">
+                                <textarea id="message" name="message" rows="12" placeholder="Write your message"
+                                    class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset   sm:text-sm sm:leading-6"></textarea>
+                            </div>
                         </div>
                     </div>
-                    <div class="sm:col-span-2">
-                        <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
-                        <div class="mt-2.5">
-                            <textarea name="message" id="message" rows="4"
-                                class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
-                        </div>
+                    <div class="mt-3">
+                        <button type="submit"
+                            class="rounded-md bg-red-600 px-3 p-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  w-full">Submit</button>
                     </div>
-                    <div class="flex gap-x-4 sm:col-span-2">
-                        <div class="flex h-6 items-center">
-                            <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
-                            <button type="button"
-                                class="bg-gray-200 flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                                role="switch" aria-checked="false" aria-labelledby="switch-1-label">
-                                <span class="sr-only">Agree to policies</span>
-                                <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
-                                <span aria-hidden="true"
-                                    class="translate-x-0 h-4 w-4 transform rounded-full bg-white shadow-sm ring-1 ring-gray-900/5 transition duration-200 ease-in-out"></span>
-                            </button>
-                        </div>
-                        <label class="text-sm leading-6 text-gray-600" id="switch-1-label">
-                            By selecting this, you agree to our
-                            <a href="#" class="font-semibold text-indigo-600">privacy&nbsp;policy</a>.
-                        </label>
-                    </div>
-                </div>
-                <div class="mt-10">
-                    <button type="submit"
-                        class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's
-                        talk</button>
-                </div>
-            </form>
-        </dev>
+                </form>
+            </div>
+        </div>
     </section>
+
+    <!--Contact  section end here -->
+
+
+    <!--Social media section start here -->
+
+        <section class="container bg-slate-100 rounded-2xl flex flex-col items-center p-9 mt-12" >
+            <h1 class="text-3xl font-bold mb-4">Social Media</h1>
+            <img class="w-[200px]" src="./Images/Social.png" alt="">
+        </section>
+
+    <!--Social media section end here -->
+    
 </body>
 
->>>>>>> 11115df16f6fd26466a79ba2f4a6856ef03f12d9
 </html>
